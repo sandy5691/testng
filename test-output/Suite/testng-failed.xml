@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="in.ey.demotestng.SampleTest1">
+        <methods>
+          <include name="m2"/>
+        </methods>
+      </class> <!-- in.ey.demotestng.SampleTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="in.ey.demotestng.SampleTest2">
+        <methods>
+          <include name="m4"/>
+        </methods>
+      </class> <!-- in.ey.demotestng.SampleTest2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
