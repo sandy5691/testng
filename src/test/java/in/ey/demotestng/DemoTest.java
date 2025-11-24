@@ -75,5 +75,6 @@ public class DemoTest {
 		jse.executeScript("document.getElementById('file-submit').click()");
 		Thread.sleep(1000);
 		driver.quit();
+		driver.close();
 	}
 }
