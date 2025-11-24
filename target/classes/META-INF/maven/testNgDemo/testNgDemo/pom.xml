@@ -3,6 +3,7 @@
 	<groupId>testNgDemo</groupId>
 	<artifactId>testNgDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<properties>
 		<skipTests>false</skipTests>
 	</properties>
