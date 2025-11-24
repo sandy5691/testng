@@ -59,7 +59,7 @@ public class DemoTest {
 		//jse.executeScript("document.getElementById('file-submit').click()");
 		Actions actions = new Actions(driver);
 		actions.moveToElement(driver.findElement(By.id("file-upload"))).click().perform();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		Robot robot = new Robot();
 		String path = "C:\\Users\\CW934NG\\Downloads\\20250908_153939.jpg";
 		StringSelection str = new StringSelection(path);
