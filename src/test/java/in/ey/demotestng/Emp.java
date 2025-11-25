@@ -14,7 +14,7 @@ public class Emp {
     	.entrySet().stream().max((o1,o2)->o1.getValue()>o2.getValue()?1:o1.getValue()<o2.getValue()?-1:0)
     	.get().getKey());
     	System.out.println("Test3");
-    	System.out.println("Bad commit");
+
     }
 
 }
