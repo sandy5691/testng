@@ -13,7 +13,7 @@ public class Emp {
     	System.out.println(words.stream().collect(Collectors.toMap(str->str, String::length))
     	.entrySet().stream().max((o1,o2)->o1.getValue()>o2.getValue()?1:o1.getValue()<o2.getValue()?-1:0)
     	.get().getKey());
-    	System.out.println("Test");
+    	System.out.println("Test3");
 
     }
 
